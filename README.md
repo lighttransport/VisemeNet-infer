@@ -84,7 +84,11 @@ if __name__ == '__main__':
 ### Create frozen graph file
 
 ```
-$ ./bazel-bin/tensorflow/python/tools/freeze_graph --input_graph=../VisemeNet_tensorflow/graphdef.pbtxt --input_checkpoint=../VisemeNet_tensorflow/data/ckpt/pretrain_biwi/pretrain_biwi.ckpt --output_graph=visemenet_frozen.pb --output_node_names=net2_output/add_1,net2_output/add_4,net2_output/add_6
+$ ./bazel-bin/tensorflow/python/tools/freeze_graph \
+  --input_graph=../VisemeNet_tensorflow/graphdef.pbtxt \
+  --input_checkpoint=../VisemeNet_tensorflow/data/ckpt/pretrain_biwi/pretrain_biwi.ckpt \
+  --output_graph=visemenet_frozen.pb \
+  --output_node_names=net2_output/add_1,net2_output/add_4,net2_output/add_6
 ```
 
 #### NOTE: Node correspondance
