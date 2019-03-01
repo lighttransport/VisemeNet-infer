@@ -4,7 +4,7 @@ CPU Inference version of VisemeNet-tensorflow https://github.com/yzhou359/Viseme
 
 Original VisemeNet_tensorflow requires CUDA 8.0 + TensorFlow 1.1.0 environment, which is outdated and quite difficult to setup such environment.
 
-VisemeNet freezes tensorflow graph so that it runs in recent TensorFlow and also without GPU(CUDA).
+VisemeNet-infer freezes tensorflow graph so that it runs in recent TensorFlow and also without GPU(CUDA).
 
 ## Requirements
 
