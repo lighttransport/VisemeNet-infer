@@ -62,13 +62,15 @@ data/output_viseme/[your_audio_file_name]/mayaparam_viseme.txt
 ## tensorflow2.0 support
 
 ※miniconda used
+```
 pip install tensorflow==2.0
 pip install scipy
 pip install python_speech_features
 pip install matplotlib
-
+```
+```
 python v2_use_frozen.py
-
+```
 
 
 https://www.tensorflow.org/guide/upgrade
