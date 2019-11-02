@@ -59,9 +59,9 @@ data/output_viseme/[your_audio_file_name]/mayaparam_viseme.txt
    * UPDATE: 'maya_animation.py' has been updated with the [public face rig](http://www.dgp.toronto.edu/~elf/jali.html) annotations. Feel free to play with it!
 
 
-#tensorflow2.0 support
+## tensorflow2.0 support
 
-#miniconda used
+※miniconda used
 pip install tensorflow==2.0
 pip install scipy
 pip install python_speech_features
