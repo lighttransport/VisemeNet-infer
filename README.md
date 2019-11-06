@@ -111,6 +111,38 @@ You may need to pip install `scipy`, `python_speech_features`, etc if required.
 
 You'll get maya animation parameter file as done in original `VisemeNet-tensorflow`.
 
+### Note on TensorFlow 2.0 support
+
+Assume miniconda environment
+
+```
+$ pip install tensorflow==2.0
+$ pip install scipy
+$ pip install python_speech_features
+$ pip install matplotlib
+```
+
+```
+python v2_use_frozen.py
+```
+
+
+### Upgrading v1 code to v2
+
+https://www.tensorflow.org/guide/upgrade
+Automatically upgrade code to TensorFlow 2
+
+
+```
+usage: tf_upgrade_v2 [-h] [--infile INPUT_FILE] [--outfile OUTPUT_FILE]
+                     [--intree INPUT_TREE] [--outtree OUTPUT_TREE]
+                     [--copyotherfiles COPY_OTHER_FILES] [--inplace]
+                     [--reportfile REPORT_FILENAME] [--mode {DEFAULT,SAFETY}]
+                     [--print_all]
+```
+
+Example Jupyter notebook is provided as `upgrade.ipynb`
+
 ## License
 
 Python script is licensed under MIT license.
