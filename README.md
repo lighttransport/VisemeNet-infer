@@ -8,7 +8,8 @@ VisemeNet-infer freezes tensorflow graph so that it runs in recent TensorFlow an
 
 ## Requirements
 
-* TensorFlow 1.12(pip installed CPU version recommended)
+* TensorFlow 1.12 or later(pip installed CPU version recommended)
+  * TensorFlow 2.0(Plsese use `v2_use_frozen.py`)
 * Python 3.5 or 3.6 recommended
 
 ## How to freeze graph
